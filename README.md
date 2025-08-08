@@ -6,7 +6,7 @@ Objectives:
 - Set up a git project [done]
 
 Write the logic to get the computerChoice
--   write the pseudocode
+-   write the pseudocode [done]
 -   write the function
 -   test the function returns the correct values
 
