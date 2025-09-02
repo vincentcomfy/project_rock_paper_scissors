@@ -7,13 +7,13 @@ Objectives:
 
 Write the logic to get the computerChoice
 -   write the pseudocode [done]
--   write the function
--   test the function returns the correct values
+-   write the function [done]
+-   test the function returns the correct values [done]
 
 Write the logic to get the humanChoice
--   write the pseudocode
--   write the function
-test the function returns the correct values
+-   write the pseudocode [done]
+-   write the function [done]
+test the function returns the correct values [done]
 
 Track score
 - write the pseudocode to track the score of the computer and human
