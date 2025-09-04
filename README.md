@@ -16,13 +16,13 @@ Write the logic to get the humanChoice
 test the function returns the correct values [done]
 
 Track score
-- write the pseudocode to track the score of the computer and human
-- write a function that that holds variables that hold the score and initialize with 0
+- write the pseudocode to track the score of the computer and human [done]
+- write a function that that holds variables that hold the score and initialize with 0 [done]
 
 Write the logic to play a single round
-- Write the pseudocode for a function that takes the returned values from computerChoice and humanChoice as arguments
-- Ensure that the input from a human accounts for any undesired variance, such as capitalization, blank values, out of range arguments etc.
-- Write the logic to compare the human and computer arguments and declarea a winner. Have this increment playRound
+- Write the pseudocode for a function that takes the returned values from computerChoice and humanChoice as arguments [done]
+- Ensure that the input from a human accounts for any undesired variance, such as capitalization, blank values, out of range arguments etc. [done]
+- Write the logic to compare the human and computer arguments and declarea a winner. Have this increment playRound [done]
 
 Write the logic to play the entire game
 - Move the playRound function and score so they are declared within a playGame function that calls playRound to play 5 rounds, keeps track of the score and declares a winner at the end.
