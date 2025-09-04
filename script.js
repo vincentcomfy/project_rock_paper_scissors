@@ -1,3 +1,6 @@
+let computerScore = 0;
+let humanScore = 0;
+
 // Get Computer "choice"
 // Generate a random number between 1-3, with each number corresponding to a choice (rock paper or scissors)
 // Store this "choice" and return it as a variable.
@@ -37,3 +40,25 @@ function humanChoice() {
 let playerChoice = humanChoice();
 console.log(`The human choice is ${playerChoice}`);
 
+
+// Take the score from who wins the round - set up a comparison function that awards a point to a global variable for scorekeeping
+function round() {
+    let comp = computerChoice();
+    let player = humanChoice();
+
+    if (comp === player) {
+        return "Draw! Try again.";
+    }
+
+    if (
+        (comp === "rock" && player === "paper") ||
+        (comp === "paper" && player === "scissors") ||
+        (comp === "scissors" && player === "rock")
+    ) {
+        humanScore++;
+        return "Player wins!";
+    } else {
+        computerScore++;
+        return "Computer wins!";
+    }
+}
